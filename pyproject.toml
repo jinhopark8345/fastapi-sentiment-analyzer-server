@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "DBSAFD"
+version = "0.1.0"
+description = "A FastAPI project with database and sentiment analysis"
+authors = [
+    { name = "Jinho", email = "jinho@example.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.10"
+# packages = [{ include = "app"}]
+
+
+# [tool.setuptools.packages.find]
+# where = ["src"]
+# namespaces = true
