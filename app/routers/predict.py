@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
 from app.classifier.model import Model, get_model
-from app.schemas.feedback import SentimentRequest, SentimentResponse
+from app.schemas.predict import SentimentRequest, SentimentResponse
 
 router = APIRouter()
 
